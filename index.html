@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"> <img class="logo" src="images/logo.png" alt="logo" srcset=""></a>
+        <div>
+            <ul id="navbar">
+                <li> <a class="active" href="index.html">Nature</a></li>
+                <li> <a href="food.html">Food</a></li>
+                <li> <a href="architecture.html">Architecture</a></li>
+                <li> <a href="contact.html">Contact me</a></li>
+            </ul>
+
+        </div>
+    </section>
+
+    <!-- <div class="heading">
+        <h1>Mobile photography <span>by Avantika Pandey</span></h1>
+    </div> -->
+
+    <div class="image-container">
+        <div class="images">
+            <img src="images/nature/img1.jpg" alt="click here" onclick="myImageFunc(this)">
+            <img src="images/nature/img2.jpg" alt="click here" onclick="myImageFunc(this)">
+            <img src="images/nature/img3.jpg" alt="click here" onclick="myImageFunc(this)">
+            <img src="images/nature/img4.jpg" alt="click here" onclick="myImageFunc(this)">
+        </div>
+    </div>
+    <div class="big-image">
+        <div class="big-img-inner">
+            <img id="inner-img" src="images/nature/img1.jpg" alt="click here">
+        </div>
+    </div>
+
+    <!--       =======================FOOD================================  -->
+<div class="food-container">
+    <div class="image-container1">
+        <div class="images1">
+            <img src="images/food/image1.jpg" alt="click here" onclick="myImageFunc1(this)">
+            <img src="images/food/image2.jpg" alt="click here" onclick="myImageFunc1(this)">
+            <img src="images/food/image3.jpg" alt="click here" onclick="myImageFunc1(this)">
+            <img src="images/food/image4.jpg" alt="click here" onclick="myImageFunc1(this)">
+        </div>
+    </div>
+    <div class="big-image1">
+        <div class="big-img-inner1">
+            <img id="inner-img1" src="images/food/image3.jpg" alt="click here">
+        </div>
+    </div>
+</div>
+
+    <!--       =======================Architecture================================ -->
+    <div class="image-container2">
+        <div class="images2">
+            <img src="images/architecture/imgg1.jpeg" alt="click here" onclick="myImageFunc2(this)">
+            <img src="images/architecture/imgg4.jpg" alt="click here" onclick="myImageFunc2(this)">
+            <img src="images/architecture/imgg3.jpg" alt="click here" onclick="myImageFunc2(this)">
+            
+            <img src="images/architecture/imgg5.jpg" alt="click here" onclick="myImageFunc2(this)">
+        </div>
+     </div>
+        <div class="big-image2">
+            <div class="big-img-inner2">
+                <img id="inner-img2" src="images/architecture/imgg1.jpeg" alt="click here">
+            </div>
+        </div>
+<!--       =======================Contact me================================ -->
+ <div class="contact">
+    <div class="inner-contact">
+        <h3>Contact me</h3>
+        <ul class="list">
+            <li>Phone : <span> 8273504949</span></li>
+            <li>Email : <span> avantu.pandey@gmail.com</span></li>
+            <li>LinkedIn : <span> www.linkedin.com/in/avantika-pandey-680186205</span></li>
+        </ul>
+    </div>
+ </div>
+
+
+        <!--       =======================Script================================ -->
+
+        <script>
+            function myImageFunc(myImages) {
+                var bigImage = document.getElementById("inner-img");
+                bigImage.src = myImages.src;
+            }
+            function myImageFunc1(myImages1) {
+                var bigImage1 = document.getElementById("inner-img1");
+                bigImage1.src = myImages1.src;
+            }
+            function myImageFunc2(myImages2) {
+                var bigImage2 = document.getElementById("inner-img2");
+                bigImage2.src = myImages2.src;
+            }
+
+        </script>
+</body>
+
+</html>
