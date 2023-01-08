@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+/*font-family: 'Dancing Script', cursive; */
+
+:root {
+    --text-black: #1E2022;
+    --text-grey: #52616B;
+    --bg-color-light: #F0F5F9;
+    --bg-color: #C9D6DF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    padding: 20px 80px;
+    justify-content: space-between;
+    position: sticky;
+    background-color: var(--text-black);
+}
+
+.logo {
+    height: 100px;
+    width: 190px;
+}
+
+.logo:hover {
+    height: 120px;
+    width: 210px;
+    transition: 0.3s ease-in;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a {
+
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 30px;
+    color: var(--bg-color-light);
+}
+
+#navbar li a:hover {
+    font-weight: 300;
+    font-size: 40px;
+    transition: 0.8s ease;
+    text-shadow: #C9D6DF;
+
+}
+
+.heading {
+    
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: var(--text-grey) 1em;
+}
+.heading span{
+    font-size: 20px;
+    font-weight: 100;
+    font-weight: 200;
+}
+
+/*  nature */
+.image-container .images img {
+    height: 95px;
+    width: 135px;
+    display: block;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.image-container img:hover{
+    opacity: 1;
+}
+
+.image-container{
+    float: left;
+    margin-top: 120px;
+
+}
+
+.big-image img{
+    margin-left: 120px;
+    height: 410px;
+    width: 700px;
+    transition: transform 1s;
+}
+
+.big-image img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+.big-image{
+   align-items: center;
+   margin-top: 120px;
+   margin-bottom: 100px;
+}
+
+/*   food      */
+.image-container1 .images1 img {
+    height: 95px;
+    width: 135px;
+    display: block;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+.image-container1 img:hover{
+    opacity: 1;
+}
+.image-container1{
+    float: left;
+    margin-top: 120px;
+}
+.food-container{
+    background-color: #1E2022;
+}
+
+.big-image1 img{
+    margin-left: 120px;
+    height: 410px;
+    width: 700px;
+    transition: transform 1s;
+    margin-top: 120px;
+    margin-bottom: 110px;
+}
+.big-image1 img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+.big-image1{
+   align-items: center;
+   margin-top: 120px;
+   margin-bottom: 100px;
+}
+
+
+/*   Architecture     */
+.image-container2 .images2 img {
+    height: 95px;
+    width: 135px;
+    display: block;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+.image-container2 img:hover{
+    opacity: 1;
+}
+.image-container2{
+    float: left;
+    margin-top: 120px;
+}
+
+.big-image2 img{
+    margin-left: 120px;
+    height: 410px;
+    width: 700px;
+    transition: transform 1s;
+    margin-top: 100px;
+    margin-bottom: 110px;
+}
+.big-image2 img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+.big-image2{
+   align-items: center;
+   margin-top: 120px;
+   margin-bottom: 100px;
+}
+/* contact*/
+.contact{
+    background-color: #1E2022;
+  
+}
+.inner-contact h3{
+    color: #C9D6DF;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    
+}
+.inner-contact li{
+    list-style: none;
+    color: #F0F5F9;
+    display: block;
+    padding: 12px;
+    font-size: 25px;
+}
